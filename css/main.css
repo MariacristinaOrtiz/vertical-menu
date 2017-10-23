@@ -2,26 +2,33 @@
 *{
     box-sizing: border-box;
 }
+
+.container {
+  width: 22%;
+  height: 45em;
+  background: rgb(240, 240, 240);
+  /*outline: 1px solid black;*/
+
+}
 h1 {
   font-size: 40px;
-  width: 100%;
-  height: 2em;
-  background-color: rgb(240, 240, 240);
-  margin: 0;
-  outline: 1px solid black;
+  margin: 10;
+  padding-left: 20px;
+  line-height: 60px;
+  /*outline: 1px solid black;*/
 }
-
 .menu {
-  width: 100%;
-  height: 20em;
-  outline: 1px solid black;
+  width: 18%;
+  position: fixed;
+  left: 15px;
+  /*outline: 1px solid black;*/
 }
 .box {
-  width: 18%;
-  height: 20%;
-  outline: 1px solid green;
   line-height: 60px;
   font-size: 25px;
   padding-left: 20px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(190, 190, 190);
+}
+#yellow {
+background-color:rgb(270, 170, 0);
 }
