@@ -1,0 +1,27 @@
+/* Indicamos con un selector universal que indique por herencia que se respete el ancho de todas las cajas(box) de los elementos */
+*{
+    box-sizing: border-box;
+}
+h1 {
+  font-size: 40px;
+  width: 100%;
+  height: 2em;
+  background-color: rgb(240, 240, 240);
+  margin: 0;
+  outline: 1px solid black;
+}
+
+.menu {
+  width: 100%;
+  height: 20em;
+  outline: 1px solid black;
+}
+.box {
+  width: 18%;
+  height: 20%;
+  outline: 1px solid green;
+  line-height: 60px;
+  font-size: 25px;
+  padding-left: 20px;
+  background-color: rgb(240, 240, 240);
+}
