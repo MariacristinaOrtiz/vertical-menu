@@ -7,14 +7,15 @@
   width: 19.2%;
   height: 50em;
   background: rgb(240, 240, 240);
+  font-family: 'Source Sans Pro', sans-serif; /* aplicamos el estilo de letra para todos los contenidos en container*/
   /*outline: 1px solid black;*/
 
 }
 /*a la frase "vertical menu" dentro del bloque h1 le agregamos un tamaño de letra, un margen, relleno izquierdo y superior; y una altura de linea para ubicarla en el centro"*/
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   margin: 5px;
-  padding-left: 8px;
+  padding-left: 7px;
   padding-top: 5px;
   line-height: 60px;
   /*outline: 1px solid black;*/
@@ -36,4 +37,5 @@ h1 {
 /*Al bloque div de identificacion yellow le colocamos un colo amarillo y por especificidad se le aplicara este color frente al gris"*/
 #yellow {
 background-color:rgb(270, 170, 0);
+color: white;
 }
