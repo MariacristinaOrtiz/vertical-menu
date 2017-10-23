@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
 }
-
+/* Al bloque div de clase container le agregamos una ancho, una altura y un color gris de bajo tono*/
 .container {
   width: 19.2%;
   height: 50em;
@@ -10,25 +10,30 @@
   /*outline: 1px solid black;*/
 
 }
+/*a la frase "vertical menu" dentro del bloque h1 le agregamos un tamaño de letra, un margen, relleno izquierdo y superior; y una altura de linea para ubicarla en el centro"*/
 h1 {
   font-size: 40px;
-  margin: 10;
-  padding-left: 20px;
+  margin: 5px;
+  padding-left: 8px;
+  padding-top: 5px;
   line-height: 60px;
   /*outline: 1px solid black;*/
 }
+/*Al bloque div de clase menu (contiene la barra de menu) le atribuimos posicion fija(para mantenerla en esa posicion) hacia la izquierda"*/
 .menu {
   width: 18%;
   position: fixed;
   left: 15px;
   /*outline: 1px solid black;*/
 }
+/*a los l bloques div de clase box(contiene los menu en si) a los contenidos le atribuimos una altura de linea, un tamaño de letra, un relleno y un color gris para una maquetacion uniforme"*/
 .box {
   line-height: 60px;
   font-size: 25px;
   padding-left: 20px;
   background-color: rgb(190, 190, 190);
 }
+/*Al bloque div de identificacion yellow le colocamos un colo amarillo y por especificidad se le aplicara este color frente al gris"*/
 #yellow {
 background-color:rgb(270, 170, 0);
 }
